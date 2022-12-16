@@ -256,7 +256,7 @@ minetest.register_node("d53_christmas:topper", {
 })
 
 minetest.register_craft({
-  output = "d53_christmas:topper",
+  output = "d53_christmas:star",
   recipe = {
     {"","dye:yellow",""},
     {"dye:yellow","default:torch","dye:yellow"},
@@ -266,7 +266,7 @@ minetest.register_craft({
 
 
 minetest.register_craft({
-  output = "d53_christmas:ornament",
+  output = "d53_christmas:bauble_red",
   recipe = {
     {"","dye:red",""},
     {"dye:red","default:torch","dye:red"},
